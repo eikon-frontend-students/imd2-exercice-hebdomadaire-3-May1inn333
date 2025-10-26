@@ -6,9 +6,54 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
 video {
   display: block;
+}
+
+body {
+  color: #fff;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.inscription {
+  margin-bottom: 77.09;
+  display: flex;
+  width: 300px;
+  height: 80px;
+  transform: rotate(-4deg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #f124f2;
+  box-shadow: 0 7px 0 0 #a819a8;
+}
+.newsletter {
+  display: flex;
+  width: 320px;
+  height: 70px;
+  transform: rotate(6deg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background: #684bd4;
+  margin-bottom: 53.47;
+}
+.panier {
+  display: flex;
+  width: 257px;
+  height: 76px;
+  justify-content: center;
+  padding-bottom: 25px;
+  align-items: end;
+  gap: 10px;
+  background: #00b47e;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
